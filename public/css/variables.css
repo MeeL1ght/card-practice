@@ -1,0 +1,32 @@
+/**
+ * CSS => Variables
+ * @author Moi
+ * @link https://github.com/MeeL1ght
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+
+:root {
+  /* Colors */
+  --main_color: #e4e6ee;
+  --dark: #202129;
+  --common_color_of_icons: #dd4d43;
+  --premium_color_of_icons: #e4e6ee;
+  
+  /* BG - Colors */
+  --bg_color: #a8b4cf;
+  --common_card_bg: #020541; /* #252130; */
+  --premium_card_bg: #2f19af;
+  --hover_common_card_bg: #030530;
+  --hover_premium_card_bg: #271785;
+
+  /* Fonts */
+  --main_font: 'Montserrat', sans-serif;
+  
+  /* Transforms */
+  --card_scale: scale(0.97);
+
+  /* Transitions */
+  --card_transition: background-color 1.2s ease-in-out,
+    transform 1s ease;
+}

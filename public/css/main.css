@@ -1,0 +1,128 @@
+/**
+ * CSS => Styles
+ * @author Moi
+ * @link https://github.com/MeeL1ght
+ */
+main.container {
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+/* Card */
+div.card {
+  height: 20rem;
+  width: 10rem;
+  padding: 3rem;
+  margin-left: 1.2rem;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  transition: var(--card_transition);
+}
+div.card:first-child {
+  margin-left: 0;
+}
+
+/* | 1 | => Common Card */
+div.common_card {
+  background-color: var(--common_card_bg);
+}
+div.common_card:hover {
+  background-color: var(--hover_common_card_bg);
+}
+
+/* | 2 | => Premium Card */
+div.premium_card {
+  height: 25rem;
+  background-color: var(--premium_card_bg);
+}
+div.premium_card:hover {
+  background-color: var(--hover_premium_card_bg);
+}
+
+/* For Hover effect */
+div.common_card:hover,
+div.premium_card:hover {
+  transform: var(--card_scale);
+}
+
+/* Title */
+h4.card_title {
+  text-align: center;
+  margin-top: 0.58rem;
+  margin-bottom: 0.25rem;
+  font-size: 1em;
+}
+
+/* Stars */
+div.common_stars_icons,
+div.premium_stars_icons {
+  font-size: 0.78em;
+}
+div.common_stars_icons {
+  color: var(--common_color_of_icons);
+}
+div.premium_stars_icons {
+  color: var(--premium_color_of_icons);
+}
+
+/* Price */
+div.price_container {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h3.price {
+  font-weight: 500;
+  font-size: 1.8em;
+}
+sub.dollar_symbol {
+  margin-right: 0.22rem;
+}
+small.subscription_per {
+  margin-top: 0.6rem;
+  margin-bottom: 0.88rem;
+}
+
+/* Text */
+div.text_group {
+  height: 10rem;
+  width: 14.8rem;
+}
+/* Checkmark icons */
+ion-icon#light_common_checkmark_icon,
+ion-icon#dark_common_checkmark_icon,
+ion-icon#light_premium_checkmark_icon,
+ion-icon#dark_premium_checkmark_icon {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-left: 0.38rem;
+  transition: color 1s ease-in-out;
+}
+/* Common Checkmark icons */
+ion-icon#light_common_checkmark_icon,
+ion-icon#dark_common_checkmark_icon {
+  color: var(--common_color_of_icons);
+}
+/* Premium Checkmark icons */
+ion-icon#light_premium_checkmark_icon,
+ion-icon#dark_premium_checkmark_icon {
+  color: var(--premium_color_of_icons);
+}
+ion-icon#light_common_checkmark_icon,
+ion-icon#light_premium_checkmark_icon {
+  opacity: 1;
+}
+ion-icon#dark_common_checkmark_icon,
+ion-icon#dark_premium_checkmark_icon {
+  opacity: 0.5;
+}
+div.card_text_container {
+  height: 5rem;
+  width: 14.8rem;
+  padding-left: 0.35rem;
+  padding-right: 1rem;
+}
+p.card_text {
+  width: 14.8rem;
+  font-size: 0.6em;
+  margin-left: 0.48rem;
+}

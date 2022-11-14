@@ -1,0 +1,145 @@
+/**
+ * CSS => Mobile First => Styles
+ * @author Moi
+ * @link https://github.com/MeeL1ght
+ */
+
+@media screen and (max-width: 1280px) and (min-width: 800px) {
+  div.card {
+    transition: none;
+  }
+  div.card:hover,
+  div.common_card:hover,
+  div.premium_card:hover {
+    background-color: none;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  div.card {
+    transition: none;
+  }
+  div.card:hover,
+  div.common_card:hover,
+  div.premium_card:hover {
+    background-color: none;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  main.container {
+    height: max-content;
+    margin: 4rem 0;
+    flex-direction: column;
+    font-size: 1.83em;
+  }
+  div.card {
+    height: 34rem;
+    width: 18rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  h4.card_title {
+    padding-top: 1.2rem;
+    width: 20rem;
+  }
+  div.common_stars_icons,
+  div.premium_stars_icons {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  div.price_container {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+  }
+  h3.price {
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+  }
+  small.subscription_per {
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  div.text_group {
+    width: max-content;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    padding: 0 1rem 7.2rem 0;
+  }
+  p.card_text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 0.48rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  main.container {
+    margin: 4rem 0;
+    font-size: 1.2em;
+  }
+  div.card {
+    height: 25rem;
+    width: 12rem;
+    margin-left: 0;
+  }
+  h4.card_title {
+    padding-top: 6rem;
+    width: 20rem;
+  }
+  div.common_stars_icons,
+  div.premium_stars_icons {
+    margin-top: 0.45rem;
+    margin-bottom: 0.3rem;
+  }
+  h3.price {
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+  }
+  small.subscription_per {
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+  }
+  div.text_group {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0 1rem 6.8rem 1rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  main.container {
+    font-size: 1.2em;
+  }
+  div.card {
+    height: 25rem;
+    width: 10rem;
+    margin-left: 0;
+  }
+  h4.card_title {
+    padding-top: 6rem;
+    width: 20rem;
+  }
+  div.common_stars_icons,
+  div.premium_stars_icons {
+    margin-top: 0.45rem;
+    margin-bottom: 0.3rem;
+  }
+  h3.price {
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+  }
+  small.subscription_per {
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+  }
+  div.text_group {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0 1rem 6.8rem 2.5rem;
+  }
+}

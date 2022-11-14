@@ -1,0 +1,104 @@
+/**
+ * CSS => Classes
+ * @author Moi
+ * @link https://github.com/MeeL1ght
+ */
+
+/*
+ * Displays 
+ * * * * * */
+.d_block {
+  display: block;
+}
+.d_inline {
+  display: inline;
+}
+.d_inline_block {
+  display: inline-block;
+}
+.d_flex {
+  display: flex;
+}
+.d_inline_flex {
+  display: inline-flex;
+}
+.d_grid {
+  display: grid;
+}
+
+/*
+ * Align - Items 
+ * * * * * * * * */
+.aitems_fs {
+  align-items: flex-start;
+}
+.aitems_c {
+  align-items: center;
+}
+.aitems_fe {
+  align-items: flex-end;
+}
+
+/*
+ * Align - Self 
+ * * * * * * * * */
+.aself_fs {
+  align-self: flex-start;
+}
+.aself_c {
+  align-self: center;
+}
+.aself_fe {
+  align-self: flex-end;
+}
+
+/*
+ * Flex - Direction
+ * * * * * * * * */
+.fdirect_col {
+  flex-direction: column;
+}
+.fdirect_row {
+  flex-direction: row;
+}
+.fdirect_colr {
+  flex-direction: column-reverse;
+}
+.fdirect_rowrr {
+  flex-direction: row-reverse;
+}
+
+/*
+ * Justify - Content
+ * * * * * * * * * * */
+.jcont_fs {
+  justify-content: flex-start;
+}
+.jcont_c {
+  justify-content: center;
+}
+.jcont_fe {
+  justify-content: flex-end;
+}
+.jcont_sp_ar {
+  justify-content: space-around;
+}
+.jcont_sp_bw {
+  justify-content: space-between;
+}
+.jcont_sp_ev {
+  justify-content: space-evenly;
+}
+
+/*
+ * Font - Weight
+ * * * * * * * * */
+.fw_n {
+  font-weight: normal;
+}
+.fw_l {
+  font-weight: lighter;
+}
+.fw_b {
+  font-weight: bold;
+}
