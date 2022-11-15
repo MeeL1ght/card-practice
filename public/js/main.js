@@ -1,5 +1,0 @@
-import '/public/css/normalize.css'
-import '/public/css/base.css'
-import '/public/css/classes.css'
-import '/public/css/main.css'
-import '/public/css/mobile_first.css'
